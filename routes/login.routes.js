@@ -8,7 +8,7 @@ require('dotenv').config();
 // Login endpoint
 router.post('/login', (req, res) => {
     // Get user credentials from request body
-    const email = req.body.email;
+    const email = req.body.email; 
     const password = req.body.password;
 
     // Find user by email
